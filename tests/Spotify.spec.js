@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import spotify from '../src/Spotify';
 
-describe('Spotify Wrapper', () => {
+describe('Spotify', () => {
   it('should be an object', () => {
     expect(spotify).to.be.an.object;
   });
@@ -10,8 +10,7 @@ describe('Spotify Wrapper', () => {
     expect(spotify.search).to.exist;
   });
 
-  it('should have album method', () => {
+  it('should have album methods', () => {
     expect(spotify.album).to.exist;
-
-  })
+  });
 });
