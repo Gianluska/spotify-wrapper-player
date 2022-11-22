@@ -53,7 +53,7 @@
     "jsdom-global": "3.0.2",
     "mocha": "3.2.0",
     "nyc": "10.2.0",
-    "webpack": "2.6.1",
+    "webpack": "5.75.0",
     "webpack-dev-server": "2.4.5"
   },
   "dependencies": {
